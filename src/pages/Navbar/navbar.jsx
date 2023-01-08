@@ -93,10 +93,10 @@ const navbar = () => {
 							Dashboard
 						</a>
 
-						<div className="relative">
+						<div className="relative group">
 							<button
 								type="button"
-								className="inline-flex h-full items-center justify-center rounded-r-md border-l border-gray-100 px-2 text-gray-600 hover:bg-gray-50 hover:text-gray-700"
+								className=" inline-flex h-full items-center justify-center rounded-r-md border-l border-gray-100 px-2 text-gray-600 hover:bg-gray-50 hover:text-gray-700 hover:inline-flex"
 							>
 								<span className="sr-only">Menu</span>
 								<svg
@@ -114,24 +114,24 @@ const navbar = () => {
 							</button>
 
 							<div
-								className="absolute right-0 z-10 mt-4 w-56 origin-top-right rounded-md border border-gray-100 bg-white shadow-lg"
+								className="absolute  right-0 z-10 w-56 origin-top-right rounded-md border border-gray-100 bg-white shadow-lg hidden  group-hover:block"
 								role="menu"
 							>
 								<div className="p-2">
-									<a
-										href="#"
+									<Link
+										to="/list-product"
 										className="block rounded-lg px-4 py-2 text-sm text-gray-500 hover:bg-gray-50 hover:text-gray-700"
 										role="menuitem"
 									>
-										update Product
-									</a>
-									<a
-										href="#"
+										List Product
+									</Link>
+									<Link
+										to="/add-product"
 										className="block rounded-lg px-4 py-2 text-sm text-gray-500 hover:bg-gray-50 hover:text-gray-700"
 										role="menuitem"
 									>
 										Add Product
-									</a>
+									</Link>
 								</div>
 							</div>
 						</div>

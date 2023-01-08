@@ -5,25 +5,32 @@ const footer = () => {
 		<div>
 			<footer aria-label="Site Footer" className="bg-white">
 				<div className="max-w-screen-xl px-4 pt-16 pb-8 mx-auto sm:px-6 lg:px-8 lg:pt-24">
-			
-
 					<div className="pt-8 mt-16 border-t border-gray-100 sm:flex sm:items-center sm:justify-between lg:mt-24">
 						<nav aria-label="Footer Navigation - Support">
 							<ul className="flex flex-wrap justify-center gap-4 text-xs lg:justify-end">
 								<li>
-									<a href="#" className="text-gray-500 transition hover:opacity-75">
+									<a
+										href="#"
+										className="text-gray-500 transition hover:opacity-75"
+									>
 										Terms & Conditions
 									</a>
 								</li>
 
 								<li>
-									<a href="#" className="text-gray-500 transition hover:opacity-75">
+									<a
+										href="#"
+										className="text-gray-500 transition hover:opacity-75"
+									>
 										Privacy Policy
 									</a>
 								</li>
 
 								<li>
-									<a href="#" className="text-gray-500 transition hover:opacity-75">
+									<a
+										href="#"
+										className="text-gray-500 transition hover:opacity-75"
+									>
 										Cookies
 									</a>
 								</li>

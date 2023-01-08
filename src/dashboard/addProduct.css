@@ -1,0 +1,9 @@
+input {
+	border: 2px solid rgb(20, 114, 129);
+	border-radius: 10px;
+	margin: 20px;
+}
+select {
+	border: 2px solid rgb(24, 150, 169);
+	border-radius: 10px;
+}
